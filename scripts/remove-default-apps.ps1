@@ -44,10 +44,7 @@ $apps = @(
     #"Microsoft.WindowsStore"
     "Microsoft.XboxApp"
     "Microsoft.XboxGameOverlay"
-<<<<<<< HEAD
     "Microsoft.XboxGamingOverlay"
-=======
->>>>>>> cac2d71f8bcd9857983ab7f278dc0ef17de0dc06
     "Microsoft.XboxIdentityProvider"
     "Microsoft.XboxSpeechToTextOverlay"
     "Microsoft.ZuneMusic"
