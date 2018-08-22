@@ -4,7 +4,7 @@
 Creators Update. Anything may happen, be prepared. I'll look into relevant
 changes and recent issues when the update is released / pushed on to everyone.
 
-This project collects Powershell scripts which help to *debloat* Windows 10,
+This project collects PowerShell scripts which help to *debloat* Windows 10,
 tweak common settings and install basic software components.
 
 I test these scripts on a Windows 10 Professional 64-Bit (English) virtual
@@ -48,34 +48,34 @@ Unblock PowerShell scripts and modules within this directory:
 ## Usage
 
 1. Install all available updates for your system.
-2. Edit the scripts to fit your need.
-3. Run the scripts from a PowerShell with administrator priviledges (Explorer
+2. Edit the scripts to fit your needs.
+3. Run the scripts from a PowerShell with administrator privileges (Explorer
    `Files > Open Windows PowerShell > Open Windows PowerShell as
    administrator`)
 4. `PS > Restart-Computer`
 5. Run `disable-windows-defender.ps1` one more time.
 6. `PS > Restart-Computer`
 
-## Startmenu
+## Start Menu
 
-In the past I included small fixes to make the startmenu more usable, like
+In the past I included small fixes to make the start menu more usable, like
 removing default tiles, disabling web search and so on. This is no longer the
-case since I am that fed up with it. This fucking menu breaks for apparently
-know reason, is slow, is a pain to configure / script and even shows ads out of
+case since I am that fed up with it. This f***ing menu breaks for apparently
+no reason, is slow, is a pain to configure / script and even shows ads out of
 the box!
 
 Please replace it with something better, either use [Classic Shell] or [Start
-is Back], but stop using that shit.
+is Back], but stop using that sh*t.
 
 [Classic Shell]: <http://www.classicshell.net/>
 [Start is Back]: <http://startisback.com/>
 
 ## Known Issues
 
-### Startmenu Search
+### Start Menu Search
 
-After running the scripts, the startmenu search-box may no longer work on newly
-created accounts. It seems like there is an issue with account initilization
+After running the scripts, the start menu search box may no longer work on newly
+created accounts. It seems like there is an issue with account initialization
 that is triggered when disabling the GeoLocation service. Following workaround
 has been discovered by BK from Atlanta:
 
@@ -95,16 +95,16 @@ step will hang unless `dmwappushserivce` is active.
 
 ### XBox Wireless Adapter
 
-Apprently running the stock `remove-default-apps` script will cause XBox
-Wireless Adapters to stop functioning. I suspenc one should not remove the XBox
-App when wanting to use one. But I haven't confirmed this yet, and there is a
+Apparently running the stock `remove-default-apps` script will cause XBox
+Wireless Adapters to stop functioning. I suspect one should not remove the XBox
+App when wanting to use one. I haven't confirmed this yet, and there is a
 workaround to re-enable it afterwards. See
 [#78](https://github.com/W4RH4WK/Debloat-Windows-10/issues/78).
 
 ### Issues with Skype
 
 Some of the domains blocked by adding them to the hosts-file are required for
-Skype. I highly disencourage using Skype, however some people may not have
+Skype. I highly discourage using Skype, however, some people may not have
 the option to use an alternative. See the
 [#79](https://github.com/W4RH4WK/Debloat-Windows-10/issues/79).
 
@@ -119,6 +119,7 @@ send me a pull request.
 
 ### Thanks To
 
+- [W4RH4WK](https://github.com/W4RH4WK)
 - [10se1ucgo](https://github.com/10se1ucgo)
 - [Plumebit](https://github.com/Plumebit)
 - [aramboi](https://github.com/aramboi)
